@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <!-- Bootstrap -->
+    <link href="assets/plugins/bootstrap-rtl/css/bootstrap-arabic.min.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="assets/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Simple Line Icons -->
+    <link href="assets/plugins/simple-line-icons/simple-line-icons.css" rel="stylesheet">
+    <!-- MegaNavbar-->
+    <link rel="stylesheet" type="text/css" href="assets/css/MegaNavbar-rtl.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/skins/navbar-inverse.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/animation/animation.css">
+
+  </head>
+  <body>
+    <style>
+        .toTop {
+            position: fixed;
+            right: 15px;
+            bottom: 56px;
+            z-index: 10000;
+            color: #999;
+        }
+    </style>
+
+        <div>
+          <nav class="navbar navbar-inverse no-border-radius" id="main_navbar" role="navigation">
+          <div class="container-fluid">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html"><i class="fa fa-home"></i>الرئيسة</a>
+          </div>
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="navbar-collapse-1">
+                        <!-- regular link -->
+        <a href="news.html" class="navbar-link navbar-left"><i class="fa fa-link"></i>&nbsp;<span class="hidden-sm hidden-md">الاخبار</span></a>
+        <a href="#" class="navbar-link navbar-left"><i class="fa fa-link"></i>&nbsp;<span class="hidden-sm hidden-md">الخدمات</span></a>
+        <a href="#" class="navbar-link navbar-left"><i class="fa fa-link"></i>&nbsp;<span class="hidden-sm hidden-md">التعليقات</span></a>
+
+    		<ul class="nav navbar-nav navbar-left">
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                            <!-- search form -->
+              <form class="navbar-form-expanded navbar-form navbar-left visible-lg-block visible-md-block visible-xs-block" role="search">
+        <div class="input-group">
+        <input type="text" class="form-control" data-width="80px" data-width-expanded="170px" placeholder="بحث..." name="query">
+        <span class="input-group-btn">
+        <button class="btn btn-default" type="submit"><i class="fa fa-search"></i>&nbsp;</button></span>
+            </div>
+        </form>
+          <li class="dropdown-grid visible-sm-block">
+            <a data-toggle="dropdown" href="javascript:;" class="dropdown-toggle"><i class="fa fa-search"></i>بحث</a>
+          <div class="dropdown-grid-wrapper" role="menu">
+          <ul class="dropdown-menu col-sm-6">
+              <li>
+        <form class="no-margin">
+        <div class="input-group">
+        <input type="text" class="form-control">
+       <span class="input-group-btn">
+      <button class="btn btn-default" type="button">&nbsp;<i class="fa fa-search"></i></button></span>
+        </div>
+        </form>
+      </li>
+      </ul>
+      </div>
+      </li>
+
+
+        <!-- divider -->
+      <li class="divider"></li>
+      <li class="dropdown-full">
+      <a data-toggle="dropdown" href="javascript:;" class="dropdown-toggle"><i class="fa fa-envelope"></i>اتصل بنا<span class="caret"></span></a>
+      <ul class="dropdown-menu">
+      <li class="col-xs-4 col-sm-4 col-md-3 col-lg-3">
+      <h3 style="padding-top: 0px; border-bottom: 1px solid #e6e6e6;"><i class="fa fa-envelope"></i>اتصل بنا</h3>
+        <address>
+        <br>
+          <strong>Brand, Inc.</strong><br>
+          123 Folsom Ave, Suite 600<br>
+          San Francisco, CA 94107<br>
+        <abbr title="Phone">Phone:</abbr>
+        (123) 456-7890<br>
+      <abbr title="Mobile Phone">Mobile:</abbr>
+        (098) 765-4321
+        </address>
+          <address>
+      <strong>Full Name</strong><br>
+      <a href="mailto:#">first.last@example.com</a>
+        </address>
+          </li>
+      <li class="col-xs-8 col-sm-8 col-md-4 col-lg-4">
+      <div class="row">
+      <form class="" role="form">
+            <div class="col-xs-6 col-md-6 ">
+            <div class="form-group">
+        <input type="text" class="form-control" id="inputName" name="inputName" placeholder="الاسم">
+            </div>
+          </div>
+          <div class="col-xs-6 col-md-6 ">
+    <div class="form-group">
+      <input type="password" class="form-control" id="inputEmail" name="inputEmail" placeholder="البريد الالكتروني">
+        </div>
+      </div>
+      <div class="col-xs-12 col-md-12 ">
+        <div class="form-group">
+      <input type="password" class="form-control" id="inputSubject" name="inputSubject" placeholder="الموضوع ...">
+      </div>
+    </div>
+      <div class="col-xs-12 col-md-12 ">
+      <div class="form-group">
+      <textarea style="resize: none;" class="form-control" id="inputMessage" name="inputMessage" placeholder="الرسالة" rows="4"></textarea>
+    </div>
+        </div>
+        <div class="form-group col-sm-offset-3 col-sm-9">
+    <button class="btn btn-default pull-right" type="submit"><i class="fa fa-chevron-circle-right"></i>ارسل</button>
+        </div>
+      </form>
+        </div>
+      </li>
+        <li class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
+      <div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.ch/maps?f=q&amp;source=s_q&amp;hl=de&amp;geocode=&amp;q=Bern&amp;aq=&amp;sll=46.813187,8.22421&amp;sspn=3.379772,8.453979&amp;ie=UTF8&amp;hq=&amp;hnear=Bern&amp;t=m&amp;z=12&amp;ll=46.947922,7.444608&amp;output=embed&amp;iwloc=near"></iframe>
+      </div>
+        </li>
+        </ul>
+          </li>
+        <!-- divider -->
+        <li class="divider"></li>
+        <!-- account -->
+        <li class="dropdown-grid">
+        <a data-toggle="dropdown" href="javascript:;" class="dropdown-toggle"><i class="fa fa-lock"></i>&nbsp;<span class="hidden-sm">الحساب</span><span class="caret"></span></a>
+          <div class="dropdown-grid-wrapper" role="menu">
+          <ul class="dropdown-menu col-xs-12 col-sm-10 col-md-8 col-lg-7">
+        <li>
+        <div id="carousel-example-account" class="carousel slide">
+        <div class="row">
+        <div class="col-lg-8 col-md-8 col-sm-8">
+    <div class="carousel-inner">
+        <div class="item active">
+      <h3 class="text-right" style="padding-top: 0px; border-bottom: 1px solid #555;"><i class="fa fa-lock"></i>تسجيل الدخول</h3>
+          <br>
+          <form class="form-horizontal" role="form">
+        <div class="form-group">
+      <label for="inputEmail3" class="col-sm-3 control-label">الهاتف</label>
+      <div class="col-sm-9">
+        <input type="text" class="input-sm form-control" id="inputEmail3" placeholder="ادخل الهاتف" autocomplete="off">
+      </div>
+          </div>
+        <div class="form-group">
+      <label for="inputPassword3" class="col-sm-3 control-label">كلمه المرور</label>
+      <div class="col-sm-9">
+        <input type="password" class="input-sm form-control" id="inputPassword3" placeholder="ادخل كلمه المرور" autocomplete="off">
+            </div>
+      </div>
+        <div class="form-group">
+        <div class="col-sm-offset-3 col-sm-9">
+          <button class="btn btn-default pull-right" type="submit"><i class="fa fa-unlock-alt"></i>دخول</button>
+      </div>
+        </div>
+          </form>
+            <p class="text-primary" style="cursor: pointer;" data-target="#carousel-example-account" data-slide-to="1"><small>ليس لديك حساب ؟ سجل حساب جديد مجانا</small></p>
+
+          <p class="text-primary" style="cursor: pointer;" data-target="#carousel-example-account" data-slide-to="2"><small>نسيت كلمه المرور?</small></p>
+            </div>
+          <div class="item">
+        <h3 class="text-right" style="padding-top: 0px; border-bottom: 1px solid #555;"><i class="fa fa-user"></i>انشاء حساب جديد</h3>
+        <br>
+      <form class="form-horizontal" role="form">
+      <div class="form-group">
+      <label for="inputEmail3" class="col-sm-5 control-label">الهاتف</label>
+        <div class="col-sm-7">
+          <input type="text" class="input-sm form-control" id="inputEmail3" placeholder="ادخل رقم الهاتف" autocomplete="off">
+        </div>
+      </div>
+    <div class="form-group">
+      <label for="inputPassword3" class="col-sm-5 control-label">كلمه المرور</label>
+        <div class="col-sm-7">
+          <input type="password" class="input-sm form-control" id="inputPassword3" placeholder="ادخل كلمه المرور" autocomplete="off">
+            </div>
+          </div>
+        <div class="form-group">
+      <label for="inputPassword3" class="col-sm-5 control-label">تاكيد كلمه المرور</label>
+      <div class="col-sm-7">
+            <input type="password" class="input-sm form-control" id="inputPassword3" placeholder="ادخل تاكيد كلمه المرور" autocomplete="off">
+      </div>
+          </div>
+      <div class="form-group">
+      <div class="col-sm-12">
+      <div class="checkbox">
+        <label>
+      <input type="checkbox">
+    <small>I have read and agree to our <a href="#">Terms of use</a> and <a href="#">Privacy Policy</a>.</small>
+      </label>
+      </div>
+      </div>
+        </div>
+            <div class="form-group">
+                <div class="col-sm-offset-5 col-sm-7">
+              <button class="btn btn-default pull-right" type="submit"><i class="fa fa-save"></i>تسجيل</button>
+                  </div>
+        </div>
+            </form>
+              </div>
+            <!-- Forgot your password -->
+            <div class="item">
+            <h3 class="text-right" style="padding-top: 0px; border-bottom: 1px solid #555;"><i class="fa fa-warning"></i>نسيت كلمه المرور؟</h3>
+    <br>
+    <p class="text-justify">    ادخل رقم الهاتف الذي سجلت به وسوف نقوم بارسال كلمه المرور الجديدة عليه .</p>
+    <br>
+    <form id="lost_password" method="post" class="form" role="form">
+    <div class="input-group">
+    <input type="text" class="form-control" placeholder="ادخل رقم هاتفك" autocomplete="off">
+    <span class="input-group-btn">
+    <button class="btn btn-default" type="button"><i class="fa fa-envelope"></i>ارسل لي كلمه المرور !</button>
+    </span>
+            </div>
+    </form>
+    <br>
+    </div>
+
+
+    </div>
+              </div>
+    <div class="col-lg-4 col-md-4 col-sm-4" style="border-left: 1px solid #555;">
+    <ol class="carousel-indicators navbar-carousel-indicators" style="">
+    <li data-target="#carousel-example-account" data-slide-to="0" class="active"><a href="#" class="">تسجيل الدخول<span class="desc">لديك حساب سابقا ؟ تسجيل الدخول</span></a></li>
+    <li data-target="#carousel-example-account" data-slide-to="1" class=""><a href="#" class="">انشاء حساب جديد<span class="desc">ليس لديك حساب</span></a></li>
+
+    <li data-target="#carousel-example-account" data-slide-to="2" class=""><a href="#" class="">نسيت كلمه المرور ؟<span class="desc">لا تقلق , هذه الاشياء تحدث !</span></a></li>
+
+    </ol>
+    </div>
+    </div>
+    </div>
+    </li>
+    </ul>
+    </div>
+    </li>
+
+
+    </ul>
+    </div>
+    </div>
+    </nav>
+    </div>
+    <div class="sec-main">
+    <section >
+      <div class="container">
+        <div class="row">
+          <h3> اخر الاعمال </h3>
+          <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+              <img class="img-responsive" src="images/image.jpg" alt="">
+              <p>ان لوريم إيبسوم ولايزال المعيار للنص الشكلي منذ القرن الخامس عشر  مجهولة برص مجموعة من الأحرف بشكل عشوائي </p>
+            </div>
+            <div class=" col-xs-12 col-sm-6 col-md-6 col-lg-3">
+              <img class="img-responsive" src="images/image.jpg" alt="">
+              <p>ان لوريم إيبسوم ولايزال المعيار للنص الشكلي منذ القرن الخامس عشر  مجهولة برص مجموعة من الأحرف بشكل عشوائي </p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+              <img class="img-responsive" src="images/image.jpg" alt="">
+              <p>ان لوريم إيبسوم ولايزال المعيار للنص الشكلي منذ القرن الخامس عشر  مجهولة برص مجموعة من الأحرف بشكل عشوائي </p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+              <img class="img-responsive" src="images/image.jpg" alt="">
+              <p>ان لوريم إيبسوم ولايزال المعيار للنص الشكلي منذ القرن الخامس عشر  مجهولة برص مجموعة من الأحرف بشكل عشوائي </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+     </div>
+  </body>
+</html>
